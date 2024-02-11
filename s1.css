@@ -1,0 +1,108 @@
+/* Reset default styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: color(srgb red green blue);
+}
+
+
+/* Main container */
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Navigation */
+nav {
+    background-color: #333;
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav .container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+nav .logo {
+    font-size: 36px;
+}
+
+/* Left Sidebar */
+.left-sidebar {
+    width: 25%;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
+
+.left-sidebar .profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.left-sidebar .profile-photo img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
+.left-sidebar .profile-info {
+    margin-left: 10px;
+}
+
+.left-sidebar .sidebar-links a {
+    display: block;
+    margin-bottom: 10px;
+    color: #333;
+    text-decoration: none;
+}
+
+.left-sidebar .sidebar-links a.active {
+    font-weight: bold;
+}
+
+/* Main Content Area */
+.main-content {
+    width: 50%;
+    padding: 20px;
+}
+
+.main-content .conversation {
+    margin-bottom: 20px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.main-content .conversation-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.main-content .conversation-header .profile-photo img {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    margin-right: 10px;
+}
+
+.main-content .conversation-header h4 {
+    margin: 0;
+    font-size: 16px;
+}
+
+.main-content .message {
+    font-size: 14px;
+}
+
+/* Right Sidebar */
+.right-sidebar {
+    width: 25%;
+    padding: 20px;
+    background-color: #f4f4f4;
+}
